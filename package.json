@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "main-d dist",
+  "preview": "vite preview"
+}
+,
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
     "docx": "^9.5.1",
